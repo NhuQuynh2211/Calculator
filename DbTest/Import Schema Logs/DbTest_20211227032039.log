@@ -1,0 +1,87 @@
+12/27/2021 10:20:39 AM	This log contains information about the import schema operation into project 'DbTest' on computer 'MSI' by user 'MSII'.
+12/27/2021 10:20:40 AM	Import of database schema has started.
+12/27/2021 10:20:43 AM	Gathering database credentials
+12/27/2021 10:20:43 AM	Gathering database options
+12/27/2021 10:20:43 AM	Gathering generic database scoped configuration option
+12/27/2021 10:20:43 AM	Gathering users
+12/27/2021 10:20:43 AM	Gathering roles
+12/27/2021 10:20:43 AM	Gathering application roles
+12/27/2021 10:20:43 AM	Gathering role memberships
+12/27/2021 10:20:43 AM	Gathering filegroups
+12/27/2021 10:20:43 AM	Gathering full-text catalogs
+12/27/2021 10:20:43 AM	Gathering assemblies
+12/27/2021 10:20:43 AM	Gathering certificates
+12/27/2021 10:20:43 AM	Gathering asymmetric keys
+12/27/2021 10:20:43 AM	Gathering symmetric keys
+12/27/2021 10:20:43 AM	Gathering encrypted symmetric keys
+12/27/2021 10:20:43 AM	Gathering schemas
+12/27/2021 10:20:43 AM	Gathering XML schema collections
+12/27/2021 10:20:43 AM	Gathering user-defined data types
+12/27/2021 10:20:43 AM	Gathering user-defined types
+12/27/2021 10:20:43 AM	Gathering table types
+12/27/2021 10:20:43 AM	Gathering unique keys for table types
+12/27/2021 10:20:43 AM	Gathering primary keys for table types
+12/27/2021 10:20:43 AM	Gathering indexes for table types
+12/27/2021 10:20:44 AM	Gathering check constraints for table types
+12/27/2021 10:20:44 AM	Gathering default constraints for table types
+12/27/2021 10:20:44 AM	Gathering partition functions
+12/27/2021 10:20:44 AM	Gathering partition schemes
+12/27/2021 10:20:44 AM	Gathering functions
+12/27/2021 10:20:44 AM	Gathering encrypted functions
+12/27/2021 10:20:44 AM	Gathering aggregates
+12/27/2021 10:20:44 AM	Gathering procedures
+12/27/2021 10:20:44 AM	Gathering encrypted procedures
+12/27/2021 10:20:44 AM	Gathering tables
+12/27/2021 10:20:44 AM	Gathering primary keys
+12/27/2021 10:20:44 AM	Gathering unique constraints
+12/27/2021 10:20:44 AM	Gathering foreign keys
+12/27/2021 10:20:44 AM	Gathering default constraints
+12/27/2021 10:20:44 AM	Gathering check constraints
+12/27/2021 10:20:44 AM	Gathering views
+12/27/2021 10:20:44 AM	Gathering encrypted views
+12/27/2021 10:20:44 AM	Gathering indexes
+12/27/2021 10:20:44 AM	Gathering statistics
+12/27/2021 10:20:44 AM	Gathering full-text index stoplists
+12/27/2021 10:20:44 AM	Gathering search property lists
+12/27/2021 10:20:44 AM	Gathering search properties
+12/27/2021 10:20:44 AM	Gathering full-text indexes
+12/27/2021 10:20:44 AM	Gathering column store indexes
+12/27/2021 10:20:44 AM	Gathering spatial indexes
+12/27/2021 10:20:44 AM	Gathering XML indexes
+12/27/2021 10:20:44 AM	Gathering Selective XML indexes
+12/27/2021 10:20:44 AM	Gathering encrypted triggers
+12/27/2021 10:20:44 AM	Gathering triggers
+12/27/2021 10:20:44 AM	Gathering encrypted and clr ddl triggers
+12/27/2021 10:20:44 AM	Gathering ddl triggers
+12/27/2021 10:20:44 AM	Creating edge constraints
+12/27/2021 10:20:44 AM	Gathering synonyms
+12/27/2021 10:20:44 AM	Gathering defaults
+12/27/2021 10:20:44 AM	Gathering data constraint uddt bindings
+12/27/2021 10:20:44 AM	Gathering rules
+12/27/2021 10:20:44 AM	Gathering data constraint uddt bindings
+12/27/2021 10:20:44 AM	Gathering message types
+12/27/2021 10:20:44 AM	Gathering queues
+12/27/2021 10:20:44 AM	Gathering contracts
+12/27/2021 10:20:44 AM	Gathering services
+12/27/2021 10:20:44 AM	Gathering event notifications
+12/27/2021 10:20:44 AM	Gathering remote service bindings
+12/27/2021 10:20:44 AM	Gathering broker priorities
+12/27/2021 10:20:44 AM	Gathering signatures
+12/27/2021 10:20:44 AM	Gathering data compression options
+12/27/2021 10:20:44 AM	Gathering sequence types
+12/27/2021 10:20:44 AM	Gathering security policies
+12/27/2021 10:20:44 AM	Gather column encryption keys
+12/27/2021 10:20:44 AM	Gathering column master keys
+12/27/2021 10:20:44 AM	Gathering external data sources
+12/27/2021 10:20:44 AM	Gathering external file formats
+12/27/2021 10:20:44 AM	Gathering external tables
+12/27/2021 10:20:44 AM	Gathering extended properties
+12/27/2021 10:20:44 AM	Gathering assemblies
+12/27/2021 10:20:44 AM	Gathering credentials
+12/27/2021 10:20:44 AM	Gathering logins
+12/27/2021 10:20:44 AM	Gathering server audits
+12/27/2021 10:20:44 AM	Scanning project for duplicate elements
+12/27/2021 10:20:44 AM	Finished duplicate element processing
+12/27/2021 10:20:45 AM	Finished importing database.
+12/27/2021 10:20:45 AM	A summary of the import was saved to the following location: C:\Users\MSII\source\repos\Calculator\DbTest\Import Schema Logs\DbTest_20211227032039.log
+12/27/2021 10:20:45 AM	Click Finish to continue...
