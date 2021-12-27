@@ -39,10 +39,18 @@ namespace BookStoreDbTester
         {
             Microsoft.Data.Tools.Schema.Sql.UnitTesting.SqlDatabaseTestAction dbo_Top3AuthorsTest_TestAction;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TestAuthor));
-            Microsoft.Data.Tools.Schema.Sql.UnitTesting.Conditions.InconclusiveCondition inconclusiveCondition1;
+            Microsoft.Data.Tools.Schema.Sql.UnitTesting.Conditions.RowCountCondition rowCountCondition1;
+            Microsoft.Data.Tools.Schema.Sql.UnitTesting.Conditions.ChecksumCondition checksumCondition1;
             this.dbo_Top3AuthorsTestData = new Microsoft.Data.Tools.Schema.Sql.UnitTesting.SqlDatabaseTestActions();
             dbo_Top3AuthorsTest_TestAction = new Microsoft.Data.Tools.Schema.Sql.UnitTesting.SqlDatabaseTestAction();
-            inconclusiveCondition1 = new Microsoft.Data.Tools.Schema.Sql.UnitTesting.Conditions.InconclusiveCondition();
+            rowCountCondition1 = new Microsoft.Data.Tools.Schema.Sql.UnitTesting.Conditions.RowCountCondition();
+            checksumCondition1 = new Microsoft.Data.Tools.Schema.Sql.UnitTesting.Conditions.ChecksumCondition();
+            // 
+            // dbo_Top3AuthorsTest_TestAction
+            // 
+            dbo_Top3AuthorsTest_TestAction.Conditions.Add(rowCountCondition1);
+            dbo_Top3AuthorsTest_TestAction.Conditions.Add(checksumCondition1);
+            resources.ApplyResources(dbo_Top3AuthorsTest_TestAction, "dbo_Top3AuthorsTest_TestAction");
             // 
             // dbo_Top3AuthorsTestData
             // 
@@ -50,15 +58,18 @@ namespace BookStoreDbTester
             this.dbo_Top3AuthorsTestData.PretestAction = null;
             this.dbo_Top3AuthorsTestData.TestAction = dbo_Top3AuthorsTest_TestAction;
             // 
-            // dbo_Top3AuthorsTest_TestAction
+            // rowCountCondition1
             // 
-            dbo_Top3AuthorsTest_TestAction.Conditions.Add(inconclusiveCondition1);
-            resources.ApplyResources(dbo_Top3AuthorsTest_TestAction, "dbo_Top3AuthorsTest_TestAction");
+            rowCountCondition1.Enabled = true;
+            rowCountCondition1.Name = "rowCountCondition1";
+            rowCountCondition1.ResultSet = 1;
+            rowCountCondition1.RowCount = 3;
             // 
-            // inconclusiveCondition1
+            // checksumCondition1
             // 
-            inconclusiveCondition1.Enabled = true;
-            inconclusiveCondition1.Name = "inconclusiveCondition1";
+            checksumCondition1.Checksum = "2118284646";
+            checksumCondition1.Enabled = true;
+            checksumCondition1.Name = "checksumCondition1";
         }
 
         #endregion
